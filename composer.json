@@ -1,0 +1,19 @@
+{
+    "name": "medatc/authorization",
+    "authors": [
+        {
+            "name": "Zhaomingxing",
+            "email": "zhaomingxinng@medatc.com"
+        }
+    ],
+
+    "require": {
+        "predis/predis": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Authorization\\": "src/"
+        }
+    }
+
+}
